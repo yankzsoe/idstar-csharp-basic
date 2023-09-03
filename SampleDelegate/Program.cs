@@ -19,8 +19,8 @@
             // ini cara lebih aman karena ada pengecekan null terlebih dahulu
             var result2 = operationAdd?.Invoke(var1, var2);
 
-            //Console.WriteLine($"Addition {var1} and {var2} = {result1}");
-            //Console.WriteLine($"Addition {var1} and {var2} = {result2}");
+            Console.WriteLine($"Addition {var1} and {var2} = {result1}");
+            Console.WriteLine($"Addition {var1} and {var2} = {result2}");
 
             // menginstansiasi delegate sebagai array
             // dan memberikan paramter method yang ada di CalculatorOperations
