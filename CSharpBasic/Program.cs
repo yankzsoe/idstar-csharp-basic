@@ -5,7 +5,7 @@
             person.Name = "Test";
             person.Age = 30;
             person.SayHello();
-
+            
             Console.ReadKey();
         }
     }
